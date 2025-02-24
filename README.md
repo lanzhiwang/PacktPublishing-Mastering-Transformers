@@ -45,10 +45,10 @@ With the following software and hardware list you can run all code files present
 
 ### Software and Hardware List
 
-| Chapter  | Software required                                                                                  | OS required                        |
-| -------- | ---------------------------------------------------------------------------------------------------| -----------------------------------|
-| 1-11     | Python 3.6x, Transformers, Google Colaboratory, Jupyter Notebook, TensorFlow                       | Windows, Mac OS X, and Linux (Any) |
-| 10       | Docker, Locust.io										                                                              | Windows, Mac OS X, and Linux (Any) |
+| Chapter | Software required                                                            | OS required                        |
+| ------- | ---------------------------------------------------------------------------- | ---------------------------------- |
+| 1-11    | Python 3.6x, Transformers, Google Colaboratory, Jupyter Notebook, TensorFlow | Windows, Mac OS X, and Linux (Any) |
+| 10      | Docker, Locust.io                                                            | Windows, Mac OS X, and Linux (Any) |
 
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it]( https://static.packt-cdn.com/downloads/9781801077651_ColorImages.pdf).
 
@@ -74,3 +74,27 @@ He is an AI manager at Carbon Consulting and is also a Ph.D. candidate at the Un
 
  <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
 <p align="center"> <a href="https://packt.link/free-ebook/9781801077651">https://packt.link/free-ebook/9781801077651 </a> </p>
+
+
+```bash
+
+```
+
+```bash
+docker run -it --rm -p 10000:8888 \
+-v ~/work/code/go_code/ai/huggingface/PacktPublishing-Mastering-Transformers:/home/jovyan/work \
+jupyter/minimal-notebook:x86_64-python-3.11.6
+
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple black[jupyter]
+
+find . -name "*.ipynb" -exec black {} \;
+find . -name "*.py" -exec black {} \;
+
+find . -name "*ipynb_checkpoints*" -exec rm -rf {} \;
+
+
+
+
+
+
+```
