@@ -85,7 +85,7 @@ docker run -it --rm -p 10000:8888 \
 -v ~/work/code/go_code/ai/huggingface/PacktPublishing-Mastering-Transformers:/home/jovyan/work \
 jupyter/minimal-notebook:x86_64-python-3.11.6
 
-pip install -i https://pypi.tuna.tsinghua.edu.cn/simple black[jupyter]
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple black[jupyter] scikit-learn==1.6.1
 
 find . -name "*.ipynb" -exec black {} \;
 find . -name "*.py" -exec black {} \;
