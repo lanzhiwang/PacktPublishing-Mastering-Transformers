@@ -24,6 +24,20 @@ If you feel this book is for you, get your [copy](https://www.amazon.com/Masteri
 
 <a href="https://www.packtpub.com/?utm_source=github&utm_medium=banner&utm_campaign=GitHubBanner"><img src="https://raw.githubusercontent.com/PacktPublishing/GitHub/master/GitHub.png" alt="https://www.packtpub.com/" border="5" /></a>
 
+## Table of Contents
+
+1. From Bag-of-Words to the Transformers
+2. A Hands-On Introduction to the Subject
+3. Autoencoding Language Models
+4. Autoregressive and Other Language Models
+5. Fine-Tuning Language Models for Text Classification
+6. Fine-Tuning Language Models for Token Classification
+7. Text Representation
+8. Working with Efficient Transformers
+9. Cross-Lingual and Multilingual Language Modeling
+10. Serving Transformer Models
+11. Attention Visualization and Experiment Tracking
+
 ## Instructions and Navigations
 All of the code is organized into folders. For example, Chapter03.
 
@@ -77,10 +91,6 @@ He is an AI manager at Carbon Consulting and is also a Ph.D. candidate at the Un
 
 
 ```bash
-
-```
-
-```bash
 docker run -it --rm -p 10000:8888 \
 -v ~/work/code/go_code/ai/huggingface/PacktPublishing-Mastering-Transformers:/home/jovyan/work \
 jupyter/minimal-notebook:x86_64-python-3.11.6
@@ -91,10 +101,5 @@ find . -name "*.ipynb" -exec black {} \;
 find . -name "*.py" -exec black {} \;
 
 find . -name "*ipynb_checkpoints*" -exec rm -rf {} \;
-
-
-
-
-
 
 ```
