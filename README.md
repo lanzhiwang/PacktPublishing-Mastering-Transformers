@@ -27,16 +27,37 @@ If you feel this book is for you, get your [copy](https://www.amazon.com/Masteri
 ## Table of Contents
 
 1. From Bag-of-Words to the Transformers
+   从词袋模型到 Transformers
+
 2. A Hands-On Introduction to the Subject
+   主题的动手介绍
+
 3. Autoencoding Language Models
+   自动编码语言模型
+
 4. Autoregressive and Other Language Models
+   自回归和其他语言模型
+
 5. Fine-Tuning Language Models for Text Classification
+   用于文本分类的微调语言模型
+
 6. Fine-Tuning Language Models for Token Classification
+   用于标记分类的微调语言模型
+
 7. Text Representation
+   文本表示
+
 8. Working with Efficient Transformers
-9. Cross-Lingual and Multilingual Language Modeling
+   使用高效的 Transformers
+
+9.  Cross-Lingual and Multilingual Language Modeling
+    跨语言和多语言语言建模
+
 10. Serving Transformer Models
+    服务 Transformer 模型
+
 11. Attention Visualization and Experiment Tracking
+    注意力可视化和实验跟踪
 
 ## Instructions and Navigations
 All of the code is organized into folders. For example, Chapter03.
