@@ -4,5 +4,6 @@ py3nvml==0.2.7
 datasets==3.3.2
 evaluate==0.4.3
 huggingface-hub==0.28.1
-bertviz==1.4.0
+# bertviz==1.4.0
 wandb==0.19.7
+seqeval==1.2.2
